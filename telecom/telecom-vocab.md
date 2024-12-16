@@ -3,7 +3,7 @@
 - IMS: IP Multimedia Subsystem
 - CSCF: Call Session Control Function
 	- P: proxy
-	- I: interagating
+	- I: Interrogating
 	- S: serving
 - MSC: Mobile Switching Center
 - VoLTE: Voice over LTE
@@ -11,10 +11,13 @@
 - HSS: Home Subscription Server
 - non-GBR: non-Guaranteed Bit Rate
 - MMTel: Multi-Media Telephony (Application Server)
+- TAS: Telephony Application Server
+	- MMTel is also called TAS
 - IMPI: IP Multimedia Private Identity
 	- IMS Private Identity
 - IMPU: IP Multimedia Public Identity 
 	- IMS Public User Identity
+- PSI: Public Service Identity
 - USIM: Universal Subscriber Identity Module
 - ISIM: IP Multimedia Services Identity Module 
 - SIP: Session Initiation Protocol
@@ -24,3 +27,21 @@
 - SRVCC: Single Radio Voice Call Continuity
 - PLMN: Public Land Mobile Network
 - RRC: Radio Resource Control
+- PCRF: Policy and Charging Rules Function
+- SCC: Service Centralization and Continuity (Application Server)
+- MRF: Multimedia Resource Function
+- MTAS: Mobile termination access services
+- SBC: Session Border Controller
+- EIR: Equipment Identity Register
+- eNodeB: Evolved Node B 
+	- (radio base station in 4G network)
+- CS-IWF: Circuit-Switched Interworking Function
+- MGW: Media Gateway
+- UTRAN: UMTS Terrestrial Radio Access Network
+	- *UMTS*: Universal Mobile Telecommunications System
+- PSTN: public switch telephone network
+- BGCF: Breakout Gateway Control Function
+- MGCF: Media Gateway Control Function
+- IBCF: Inter-connect Border Control Function
+- RB: Radio Bearer
+- 
