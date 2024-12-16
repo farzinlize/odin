@@ -15,3 +15,4 @@ if you specify `<filename>` as argument, it shows commits related to the file
 ## Branch and Checkout
 show branches from remote -> `git branch -r`
     `-a` option will show all branches including local
+

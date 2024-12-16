@@ -1,0 +1,26 @@
+- EPC: Evolved Packet Core
+- EPS: Evolved Packet System
+- IMS: IP Multimedia Subsystem
+- CSCF: Call Session Control Function
+	- P: proxy
+	- I: interagating
+	- S: serving
+- MSC: Mobile Switching Center
+- VoLTE: Voice over LTE
+- MME: Mobility Managment Entity
+- HSS: Home Subscription Server
+- non-GBR: non-Guaranteed Bit Rate
+- MMTel: Multi-Media Telephony (Application Server)
+- IMPI: IP Multimedia Private Identity
+	- IMS Private Identity
+- IMPU: IP Multimedia Public Identity 
+	- IMS Public User Identity
+- USIM: Universal Subscriber Identity Module
+- ISIM: IP Multimedia Services Identity Module 
+- SIP: Session Initiation Protocol
+- SDP: Session Description Protocol
+- RTP: Real Time Protocol
+- XCAP: XML Configuration Access Protocol
+- SRVCC: Single Radio Voice Call Continuity
+- PLMN: Public Land Mobile Network
+- RRC: Radio Resource Control
