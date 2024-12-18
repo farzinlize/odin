@@ -24,17 +24,24 @@
 - SDP: Session Description Protocol
 - RTP: Real Time Protocol
 - XCAP: XML Configuration Access Protocol
+- CSFB: Circuit Switching Fall Back
 - SRVCC: Single Radio Voice Call Continuity
+	- Basic: normal call Continuity
+	- Advanced: pre-alerting phase
+	- Enhanced: mid call MSC feature
+	- Video SRVCC
+	- Reverse: from 3G to 4G
 - PLMN: Public Land Mobile Network
 - RRC: Radio Resource Control
 - PCRF: Policy and Charging Rules Function
+- PCC: Policy and Charging Control
 - SCC: Service Centralization and Continuity (Application Server)
 - MRF: Multimedia Resource Function
 - MTAS: Mobile termination access services
 - SBC: Session Border Controller
 - EIR: Equipment Identity Register
 - eNodeB: Evolved Node B 
-	- (radio base station in 4G network)
+	- (radio base station)
 - CS-IWF: Circuit-Switched Interworking Function
 - MGW: Media Gateway
 - UTRAN: UMTS Terrestrial Radio Access Network
@@ -44,4 +51,42 @@
 - MGCF: Media Gateway Control Function
 - IBCF: Inter-connect Border Control Function
 - RB: Radio Bearer
-- 
+- AMR-WB: Adaptive Multi-Rate Wideband encoding
+- PRACK: Provisional Response Acknowledge
+- GPRS: General Packet Radio Service
+- SGSN: Serving GPRS Support Node
+- RNC: Radio Network Controller
+- TMSI: Temporary Mobile Subscriber Identity
+- HLR: Home Location Register
+- SAPC: Service-Aware Policy Controller
+- SIGTRAN: Signaling Transport
+- AUC: Authentication Center
+- SMSC: Short Message Service Center
+- EIR: Equipment Identity Register
+- Signaling Network Elements:
+	- OP: Originating Point
+	- DP: Destination Point
+	- STP: Signaling Transfer Point
+	- SL: Signaling Link
+	- SLS: Signaling Link Set
+	- SR: Signaling Route
+	- SRS: Signaling Route Set
+	- SP: Signaling Points
+	- SSP: Service Switching Point
+	- SCP: Service Control Point
+- IN: Intelligent Networking
+- ISDN: Integrated Services Digital Network
+- Signaling Proocols:
+	- SCCP: Signaling Connection Control Part
+	- MTP: Message Transfer Part
+	- INAP: Intelligent Network Application Part
+	- TCAP: Transaction Capabilities Application
+	- MAP: Mobile Application Part
+	- IS-41 (also known as ANSI-41)
+	- TUP: Telephone User Part
+	- ISUP: ISDN User Part
+- SUERM: Signal Unit Error Rate Monitor
+- SU: Signaling Unit
+	- FISU: Fill-in Signal Unit
+	- LSSU: Link Satus Signal Unit
+	- MSU: Message Signal Unit
