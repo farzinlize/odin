@@ -63,7 +63,7 @@
 - AUC: Authentication Center
 - SMSC: Short Message Service Center
 - EIR: Equipment Identity Register
-- Signaling Network Elements:
+- Signaling Network Elements (pointes):
 	- OP: Originating Point
 	- DP: Destination Point
 	- STP: Signaling Transfer Point
@@ -72,6 +72,8 @@
 	- SR: Signaling Route
 	- SRS: Signaling Route Set
 	- SP: Signaling Points
+		- PSP: Primary SP
+		- SSP: Secondary SP
 	- SSP: Service Switching Point
 	- SCP: Service Control Point
 - IN: Intelligent Networking
@@ -90,3 +92,19 @@
 	- FISU: Fill-in Signal Unit
 	- LSSU: Link Satus Signal Unit
 	- MSU: Message Signal Unit
+- PC: (network element) Point Code
+	- DPC: Destination Point Code
+	- OPC: Originationg Point Code
+- NSP: Network Service Part (MTP+SCCP)
+- BSC: Base Station Controller
+- VLR: Visitor Location Register
+- GMSC: Gateway Mobile Switching Center
+- BSS: Base Station Subsystem
+	- BSSAP: Base Station System Application Part (protocol)
+- GTT: Global Title Translation
+- AI: Address Information
+- NA: Nature of Address
+- NP: Numbering Plan
+- TT: Translation Type
+- GTRC: Global Title Routing Case 
+- IMSI: International Mobile Subscriber Identity

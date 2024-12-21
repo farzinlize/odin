@@ -13,3 +13,10 @@ short definition of various components related to telecommunication technologies
 - **SIGTRAN**: A set of protocols that enables the transportation of Signaling System 7 (SS7) messages over Internet Protocol (IP) networks
 - **IS-41**: also known as ANSI-41, is a mobile, cellular telecommunications system standard that supports mobility management by enabling the networking of switches
 - **E1**: is a standard for digital telecommunications that carries data at a rate of 2.048 megabits per second (Mbps)
+- Parts of a Signal unit:
+	- **BSN**: Backward-Sequence number, is used to acknowledge the receipt of signal units by remote signaling point. BSN indicate sequence number of the signal unit being acknowledged.
+	- **FIB**: Forward Indicator Bit, A bit that indicates if the signal unit is transmitted for the first time (0) or not (1) when error happens.
+	- **BIB**: Backward Indicator Bit. indicates a nagative acknowledgment when toggled (1)
+	- **SIO**: Service information octet contains 4 bits of network indicator (national or international) and another 4 bits of service indicator that defines the content inside the SIF (e.g. which protocol)
+	- **SIF**: signaling information field that contains the actual message
+		- it contains the routing label and inside, it has originating and destination **PC** or point code. A point code contains network identifire, network cluster and network cluster member

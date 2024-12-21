@@ -32,6 +32,15 @@ The MTP layer is divided into three sub-layers, each with specific functions:
 1. **Call Setup and Teardown**: ISUP is responsible for signaling the setup and release of calls between different network nodes.
 2. **Call Progress Information**: ISUP carries information about call progress, including the initiation of a call, its progress, and the release of the call.
 3. **Standardized Communication Mechanism**: ISUP provides a standardized communication mechanism between network nodes, enabling interoperability between different systems and networks.
+### Type of ISUP messages
+1. **Initial Address Message (IAM)**: the first message that is sent when setting up a connection between two MSC's and contains A-number, B-numer and other information concerning the routing and handling of the call
+2. **Address Complete Message (ACM)**: it indicates that all necessary address information in receieved and the called subscriber is identified, free and alerted by a ringing signal or some other signal.
+3. **Segmentation Message (SGM)**: if any message exceeds the maximum possible lenght of a MSU (279 octets) it should get segmented.
+4. **Call Progress Message (CPG)**: 
+5. **Answer Message (ANM)**: indicates that a call has been answered and when this message is received, charging of the call starts.
+6. **Release Message (REL)**: indicates the release of a circuit used for a call. unlike in TUP or older signaling systems, the call release can be initiated by either of the subscribers or by the network.
+7. **Release Complete Message (RLC)**: is sent in response to REL and confirms the completion of relaseing circuits.
+8. **Connect Message (CON)**: 
 ### Operating Environment:
 1. **Network Layer**: ISUP operates at the network layer of the OSI model, specifically in the Signaling Connection Control Part (SCCP) of the SS7 protocol suite.
 2. **ISDN and SS7 Networks**: ISUP is primarily used in ISDN and SS7 networks, but its variants can be found in other networks as well.
@@ -44,6 +53,13 @@ TCAP stands for Transaction Capabilities Application Part, a signaling protocol
 1. **Transaction-oriented protocol**: TCAP facilitates the exchange of messages between applications residing in different network nodes, enabling concurrent dialogues and multiplexing connections.
 2. **Generic services**: TCAP provides generic services to applications, such as information transfer, dialogue handling, and error reporting, allowing them to focus on their specific functions rather than implementing these capabilities themselves.
 3. **Independent of applications**: TCAP remains independent of the applications it serves, ensuring that changes to the protocol do not affect the applications themselves.
+## TCAP Type Messages
+1. UNI-Directional: also called Notice, from originator to terminator and no other messages is sent after it
+2. Begin: indicates begining a dialogue
+3.  Continue: A subsequence message on an existing dialogue
+4. End: last message of an existing dialogue
+5. Abort: some error caused the dialogue to close
+6. Cancel: the timer is reached without receiving answer from the other peer
 ## Components and Structure
 1. **Invoke components**: Carry a signed 7-bit InvokeID, identifying which invoke they relate to.
 2. **Dialogue portions**: Contain dialogue or unidialogue control PDUs, used for establishing and releasing dialogues for the application context.
@@ -79,3 +95,48 @@ SCCP is a network layer protocol in Signaling System 7 (SS7) telecommunications
 2. **The CAMEL Application Part (CAP)**: Also layered on top of TCAP, SCCP is used for intelligent network services.
 
 In summary, SCCP is a crucial component of SS7 telecommunications networks, enabling efficient and reliable signaling message exchange between network elements. Its features and classes of protocol make it suitable for various applications, including mobile network signaling and intelligent network services.
+
+# INAP, MAP and IS41
+### INAP (Intelligent Network Application Part)
+**Usage:**
+- INAP is part of the Intelligent Network (IN) architecture, which enhances the capabilities of traditional telephony networks by enabling more complex services.
+- It is primarily used to facilitate the implementation of value-added services, such as toll-free calling, call forwarding, and mobile number portability.
+- INAP allows for the interaction between service control points (SCPs) and service switching points (SSPs), enabling the execution of service logic.
+**Key Features:**
+- Supports various service types and allows for the dynamic generation of services.
+- Provides a framework for service development and deployment.
+- Works with databases to retrieve user information and service data.
+### MAP (Mobile Application Part)
+**Usage:**
+- MAP is used in mobile communication networks, particularly in GSM and UMTS (3G) systems.
+- It facilitates the signaling between mobile switching centers (MSCs) and other network elements, such as Home Location Registers (HLRs) and Visitor Location Registers (VLRs).
+- MAP is essential for mobile user registration, location updates, call setup, SMS handling, and mobility management.
+**Key Features:**
+- Supports multiple functionalities, including call control, roaming, and subscriber management.
+- Handles interactions related to mobile services, such as SMS and USSD.
+- Designed specifically for mobile networks, making it distinct from INAP.
+### IS41 (Inter-System Interface 41)
+**Usage:**
+- IS41 is a protocol used primarily in North American digital cellular networks, particularly in CDMA (Code Division Multiple Access) systems.
+- It is employed for signaling between mobile switching centers (MSCs) and other network elements, similar to MAP, but tailored for CDMA networks.
+- IS41 handles tasks such as call setup, handovers, and location updates for mobile users.
+**Key Features:**
+- Designed to support the specific needs of CDMA networks, including features like soft handoff.
+- Provides mechanisms for interworking between different network operators and technologies.
+- Includes functionalities for service-related exchanges between systems.
+
+### Differences
+1. **Network Type:**
+    - **INAP:** Primarily used in traditional telephony networks (PSTN) and intelligent networks for value-added services.
+    - **MAP:** Used in GSM and UMTS (mobile networks) for signaling between MSCs and databases.
+    - **IS41:** Specifically designed for CDMA networks and focuses on signaling in those environments.
+2. **Purpose and Functionality:**
+    - **INAP:** Focused on intelligent network services, allowing for complex service logic and interactions.
+    - **MAP:** Provides comprehensive support for mobile services, user registration, and mobility management.
+    - **IS41:** Facilitates mobility and service management in CDMA networks, with specific adaptations for CDMA technologies.
+3. **Geographical Usage:**
+    - **INAP:** More universally applied across various intelligent network scenarios.
+    - **MAP:** Predominantly used in European and global GSM/UMTS networks.
+    - **IS41:** Primarily used in North America, specifically with CDMA networks.
+
+In summary, while all three protocols are essential for signaling in telecommunications, they serve different types of networks and purposes, with INAP being more focused on intelligent network services, MAP on mobile networks, and IS41 on CDMA networks.
