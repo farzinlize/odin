@@ -5,7 +5,7 @@
 	- P: proxy
 	- I: Interrogating
 	- S: serving
-- MSC: Mobile Switching Center
+- [[short-def#MSC|MSC]]: Mobile Switching Center
 - VoLTE: Voice over LTE
 - MME: Mobility Managment Entity
 - HSS: Home Subscription Server
@@ -21,7 +21,7 @@
 - USIM: Universal Subscriber Identity Module
 - ISIM: IP Multimedia Services Identity Module 
 - SIP: Session Initiation Protocol
-- SDP: Session Description Protocol
+- [[SDP]]: Session Description Protocol
 - RTP: Real Time Protocol
 - XCAP: XML Configuration Access Protocol
 - CSFB: Circuit Switching Fall Back
@@ -40,30 +40,30 @@
 - MTAS: Mobile termination access services
 - SBC: Session Border Controller
 - EIR: Equipment Identity Register
-- eNodeB: Evolved Node B 
+- eNodeB: Evolved [[short-def#Node B|Node B]] 
 	- (radio base station)
 - CS-IWF: Circuit-Switched Interworking Function
 - MGW: Media Gateway
 - UTRAN: UMTS Terrestrial Radio Access Network
-	- *UMTS*: Universal Mobile Telecommunications System
+	- [[short-def#UMTS|UMTS]]: Universal Mobile Telecommunications System 
 - PSTN: public switch telephone network
 - BGCF: Breakout Gateway Control Function
 - MGCF: Media Gateway Control Function
 - IBCF: Inter-connect Border Control Function
-- RB: Radio Bearer
+- RB: Radio [[Bearer]]
 - AMR-WB: Adaptive Multi-Rate Wideband encoding
 - PRACK: Provisional Response Acknowledge
 - GPRS: General Packet Radio Service
-- SGSN: Serving GPRS Support Node
-- RNC: Radio Network Controller
+- [[short-def#SGSN|SGSN]]: Serving GPRS Support Node
+- [[short-def#Radio Network Controller (RNC)|RNC]]: Radio Network Controller
 - TMSI: Temporary Mobile Subscriber Identity
 - HLR: Home Location Register
 - SAPC: Service-Aware Policy Controller
-- SIGTRAN: Signaling Transport
+- [[short-def#SIGTRAN|SIGTRAN]]: Signaling Transport
 - AUC: Authentication Center
 - SMSC: Short Message Service Center
 - EIR: Equipment Identity Register
-- Signaling Network Elements (pointes):
+- Signaling Network Elements ([[short-def#SP (Signaling points)|SP]]):
 	- OP: Originating Point
 	- DP: Destination Point
 	- STP: Signaling Transfer Point
@@ -78,17 +78,17 @@
 	- SCP: Service Control Point
 - IN: Intelligent Networking
 - ISDN: Integrated Services Digital Network
-- Signaling Proocols:
+- [[Signaling Protocol stack]]: 
 	- SCCP: Signaling Connection Control Part
 	- MTP: Message Transfer Part
 	- INAP: Intelligent Network Application Part
 	- TCAP: Transaction Capabilities Application
 	- MAP: Mobile Application Part
-	- IS-41 (also known as ANSI-41)
+	- [[short-def#IS-41|IS-41]] (also known as ANSI-41)
 	- TUP: Telephone User Part
 	- ISUP: ISDN User Part
 - SUERM: Signal Unit Error Rate Monitor
-- SU: Signaling Unit
+- SU: [[short-def#Parts of a Signal Unit|Signaling Unit]]
 	- FISU: Fill-in Signal Unit
 	- LSSU: Link Satus Signal Unit
 	- MSU: Message Signal Unit
@@ -99,8 +99,8 @@
 - BSC: Base Station Controller
 - VLR: Visitor Location Register
 - GMSC: Gateway Mobile Switching Center
-- BSS: Base Station Subsystem
-	- BSSAP: Base Station System Application Part (protocol)
+- [[short-def#BSS Base Station Subsystem|BSS]]: Base Station Subsystem
+	- [[Signaling Protocol stack#BSSAP|BSSAP]]: Base Station Sybsystem Application Part (protocol)
 - GTT: Global Title Translation
 - AI: Address Information
 - NA: Nature of Address

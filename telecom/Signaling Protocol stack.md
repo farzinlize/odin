@@ -117,7 +117,7 @@ In summary, SCCP is a crucial component of SS7 telecommunications networks, enab
 - Designed specifically for mobile networks, making it distinct from INAP.
 ### IS41 (Inter-System Interface 41)
 **Usage:**
-- IS41 is a protocol used primarily in North American digital cellular networks, particularly in CDMA (Code Division Multiple Access) systems.
+- [[short-def#IS-41|IS41]] is a protocol used primarily in North American digital cellular networks, particularly in CDMA (Code Division Multiple Access) systems.
 - It is employed for signaling between mobile switching centers (MSCs) and other network elements, similar to MAP, but tailored for CDMA networks.
 - IS41 handles tasks such as call setup, handovers, and location updates for mobile users.
 **Key Features:**
@@ -140,3 +140,6 @@ In summary, SCCP is a crucial component of SS7 telecommunications networks, enab
     - **IS41:** Primarily used in North America, specifically with CDMA networks.
 
 In summary, while all three protocols are essential for signaling in telecommunications, they serve different types of networks and purposes, with INAP being more focused on intelligent network services, MAP on mobile networks, and IS41 on CDMA networks.
+
+# BSSAP
+BSSAP is a protocol used in the signaling between the Mobile Switching Center (MSC) and the Base Station Subsystem (BSS) within cellular networks.
