@@ -76,7 +76,7 @@
 		- SSP: Secondary SP
 	- SSP: Service Switching Point
 	- SCP: Service Control Point
-- IN: Intelligent Networking
+- IN: Intelligent Networkingj
 - ISDN: Integrated Services Digital Network
 - [[Signaling Protocol stack]]: 
 	- SCCP: Signaling Connection Control Part
@@ -92,15 +92,19 @@
 	- FISU: Fill-in Signal Unit
 	- LSSU: Link Satus Signal Unit
 	- MSU: Message Signal Unit
+		- SIF: Signaling Information Field
+		- SIO: Service Information Octet
 - PC: (network element) Point Code
 	- DPC: Destination Point Code
 	- OPC: Originationg Point Code
+- SLS: Signaling Link Selector
 - NSP: Network Service Part (MTP+SCCP)
 - BSC: Base Station Controller
 - VLR: Visitor Location Register
 - GMSC: Gateway Mobile Switching Center
 - [[short-def#BSS Base Station Subsystem|BSS]]: Base Station Subsystem
 	- [[Signaling Protocol stack#BSSAP|BSSAP]]: Base Station Sybsystem Application Part (protocol)
+	- [[BSSAP-map.canvas|BSSMAP]]: BSS Mobile Application Part
 - GTT: Global Title Translation
 - AI: Address Information
 - NA: Nature of Address
@@ -108,3 +112,11 @@
 - TT: Translation Type
 - GTRC: Global Title Routing Case 
 - IMSI: International Mobile Subscriber Identity
+- DTAP: Direct Transfer Application Part
+- MM: Mobility Management
+- CM: Call Management
+- Abis: Abis Interface
+- SCF: Service Control Function
+- SSF: Service Switching Function
+- NGN: Next Generation Networks
+- AIN: Advanced Intelligent Network

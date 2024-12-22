@@ -33,3 +33,5 @@ is a standard for digital telecommunications that carries data at a rate of 2.0
 The Base Station Subsystem (BSS) is a crucial component in traditional cellular telephone networks, responsible for handling traffic and signaling between mobile phones and the network switching subsystem. It consists of two primary components: 
 - the Base Transceiver Station (**BTS**)
 - the Base Station Controller (**BSC**)
+### Abis Interface
+enabling the transfer of information between the Base Station Transceiver Subsystem (BTS) and the Base Station Controller (BSC)

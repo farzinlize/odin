@@ -142,4 +142,18 @@ In summary, SCCP is a crucial component of SS7 telecommunications networks, enab
 In summary, while all three protocols are essential for signaling in telecommunications, they serve different types of networks and purposes, with INAP being more focused on intelligent network services, MAP on mobile networks, and IS41 on CDMA networks.
 
 # BSSAP
-BSSAP is a protocol used in the signaling between the Mobile Switching Center (MSC) and the Base Station Subsystem (BSS) within cellular networks.
+BSSAP is a protocol used in the signaling between the Mobile Switching Center (MSC) and the Base Station Subsystem (BSS) within cellular networks. It facilitates the management of key functions such as:
+- Call setup and management
+- SMS transfer
+- Mobility management (handovers, location updates)
+- Resource allocation (radio resources)
+### BSSMAP: BSS Mobile Application Part
+supports procedures to facilitate communication between MSC and the BSC for resource management, paging and handover control
+Different types of signalling message received or sent by BSC:
+- Ciphering And Integrity Protection
+- Call Setup
+- A_Release
+- Terminated Call
+Also [[BSSAP-map.canvas|BSSAP-map]] explains each signalling message and its direction.
+### DTAP: Direct Transfer Application Part
+is used for transfer of those messages which needs to travel directly to a mobile equipment (UE) from MSC. These messages are pertaining to Mobility Management or Call Managment 
