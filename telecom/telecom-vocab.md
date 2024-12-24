@@ -120,3 +120,7 @@
 - SSF: Service Switching Function
 - NGN: Next Generation Networks
 - AIN: Advanced Intelligent Network
+- SCTP: Stream Control Transmission Protocol
+- IPSP: IP Signaling Point
+- [[short-def#NIF Nodal Interworking Function|NIF]]: Nodal Interworking Function
+- 
