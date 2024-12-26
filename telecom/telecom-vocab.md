@@ -31,7 +31,7 @@
 	- Enhanced: mid call MSC feature
 	- Video SRVCC
 	- Reverse: from 3G to 4G
-- PLMN: Public Land Mobile Network
+- [[PLMN.canvas|PLMN]]: Public Land Mobile Network
 - RRC: Radio Resource Control
 - PCRF: Policy and Charging Rules Function
 - PCC: Policy and Charging Control
@@ -123,4 +123,4 @@
 - SCTP: Stream Control Transmission Protocol
 - IPSP: IP Signaling Point
 - [[short-def#NIF Nodal Interworking Function|NIF]]: Nodal Interworking Function
-- 
+- GTP: GPRS Tunneling Protocol

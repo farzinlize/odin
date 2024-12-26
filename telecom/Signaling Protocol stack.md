@@ -56,7 +56,7 @@ TCAP stands for Transaction Capabilities Application Part, a signaling protocol
 ## TCAP Type Messages
 1. UNI-Directional: also called Notice, from originator to terminator and no other messages is sent after it
 2. Begin: indicates begining a dialogue
-3.  Continue: A subsequence message on an existing dialogue
+3. Continue: A subsequence message on an existing dialogue
 4. End: last message of an existing dialogue
 5. Abort: some error caused the dialogue to close
 6. Cancel: the timer is reached without receiving answer from the other peer

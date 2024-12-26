@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"0c9f8476dccb7ed9","type":"group","x":-640,"y":-440,"width":1300,"height":860,"label":"Scope of Public (e.g. Nation)"},
+		{"id":"3fc2e2c9f17285a0","x":-600,"y":680,"width":489,"height":180,"color":"3","type":"group","label":"Internet"},
+		{"id":"399b64ee46848670","type":"file","file":"svg-source/radio-tower.svg","x":-540,"y":-220,"width":120,"height":120},
+		{"id":"780ec0d240736754","type":"file","file":"svg-source/radio-tower.svg","x":-277,"y":-380,"width":120,"height":120},
+		{"id":"fe9002beb4547a1e","type":"file","file":"svg-source/radio-tower.svg","x":325,"y":-320,"width":120,"height":120},
+		{"id":"d4b3fa46f2d56d09","type":"file","file":"svg-source/radio-tower.svg","x":480,"y":-100,"width":120,"height":120},
+		{"id":"70aa1924722f0659","type":"file","file":"svg-source/radio-tower.svg","x":285,"y":228,"width":120,"height":120},
+		{"id":"a445e8cf5cbee7cd","type":"file","file":"svg-source/radio-tower.svg","x":-337,"y":-140,"width":120,"height":120},
+		{"id":"5e1fa14f4b8045df","type":"text","text":"### Public Land Mobile Network\n- peer-to-peer connection between users\n- network knows where's everybody\n### IP Network \nPacket Switching","x":-180,"y":-100,"width":406,"height":260},
+		{"id":"7147a10f513ede80","type":"file","file":"svg-source/radio-tower.svg","x":-540,"y":140,"width":120,"height":120},
+		{"id":"864072c0f18eaada","type":"file","file":"svg-source/radio-tower.svg","x":-157,"y":220,"width":120,"height":120},
+		{"id":"f754716359e8a2af","type":"file","file":"svg-source/radio-tower.svg","x":325,"y":40,"width":120,"height":120},
+		{"id":"2ab99afad52e9f30","type":"text","text":"## External Networks\nInternet and other possible networks that supports and connects through IP network","x":-191,"y":480,"width":429,"height":140},
+		{"id":"9076090695e6cb34","type":"file","file":"svg-source/radio-tower.svg","x":19,"y":-293,"width":120,"height":120},
+		{"id":"819f9c973495253e","type":"file","file":"svg-source/dave.svg","x":139,"y":-407,"width":87,"height":87},
+		{"id":"820822d8fa967801","type":"file","file":"svg-source/sicko.svg","x":-420,"y":297,"width":87,"height":87},
+		{"id":"15ac167caf62a238","x":-565,"y":700,"width":185,"height":57,"type":"text","text":"# Google "},
+		{"id":"48604dc01efef03f","type":"text","text":"# Microsoft","x":-360,"y":700,"width":209,"height":57},
+		{"id":"d65aa97a4923e56e","type":"text","text":"# .com .net .ir .blah ...","x":-565,"y":780,"width":408,"height":57}
+	],
+	"edges":[
+		{"id":"5176f5f1df3baed0","fromNode":"780ec0d240736754","fromSide":"bottom","toNode":"5e1fa14f4b8045df","toSide":"top","fromEnd":"arrow"},
+		{"id":"4a532d1e4fe66016","fromNode":"9076090695e6cb34","fromSide":"bottom","toNode":"5e1fa14f4b8045df","toSide":"top","fromEnd":"arrow"},
+		{"id":"df542d620eb10612","fromNode":"f754716359e8a2af","fromSide":"left","toNode":"5e1fa14f4b8045df","toSide":"right","fromEnd":"arrow"},
+		{"id":"bdf5295306714713","fromNode":"fe9002beb4547a1e","fromSide":"left","toNode":"5e1fa14f4b8045df","toSide":"right","fromEnd":"arrow"},
+		{"id":"ccdc923a64f5e0d0","fromNode":"d4b3fa46f2d56d09","fromSide":"left","toNode":"5e1fa14f4b8045df","toSide":"right","fromEnd":"arrow"},
+		{"id":"37e7b3ef31766e6d","fromNode":"70aa1924722f0659","fromSide":"left","toNode":"5e1fa14f4b8045df","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"4335a6a95db3ef69","fromNode":"864072c0f18eaada","fromSide":"top","toNode":"5e1fa14f4b8045df","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"368e8d38adc09921","fromNode":"7147a10f513ede80","fromSide":"right","toNode":"5e1fa14f4b8045df","toSide":"left"},
+		{"id":"4dfb8761df9de36c","fromNode":"a445e8cf5cbee7cd","fromSide":"bottom","toNode":"5e1fa14f4b8045df","toSide":"left"},
+		{"id":"d2b32f0198fb1795","fromNode":"399b64ee46848670","fromSide":"bottom","toNode":"5e1fa14f4b8045df","toSide":"left"},
+		{"id":"df2e174522510fdf","fromNode":"819f9c973495253e","fromSide":"bottom","toNode":"9076090695e6cb34","toSide":"right","fromEnd":"arrow","color":"5"},
+		{"id":"bbffa26de8b8449c","fromNode":"820822d8fa967801","fromSide":"left","toNode":"7147a10f513ede80","toSide":"bottom","fromEnd":"arrow","color":"5"},
+		{"id":"ebc91968cc4147bb","fromNode":"2ab99afad52e9f30","fromSide":"top","toNode":"5e1fa14f4b8045df","toSide":"bottom","fromEnd":"arrow","color":"2","label":"IP"},
+		{"id":"ca852bf1d429b776","fromNode":"2ab99afad52e9f30","fromSide":"left","toNode":"3fc2e2c9f17285a0","toSide":"top"}
+	]
+}
