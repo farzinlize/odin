@@ -124,3 +124,9 @@
 - IPSP: IP Signaling Point
 - [[short-def#NIF Nodal Interworking Function|NIF]]: Nodal Interworking Function
 - GTP: GPRS Tunneling Protocol
+- HSM: Hardware security module
+- SMLC: Serving Mobile Location Center
+- CBC: Cell Broadcast Centre
+
+- TSN: Transmission Sequence Numbers
+- TALI: Transport Adapter Layer Interface

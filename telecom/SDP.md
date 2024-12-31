@@ -4,6 +4,7 @@ these short names are used for specifying parameterns and etc.
 - s: session name
 - c: content 
 - m: media
+	- supported media streams with local UDP port, to which the incoming stream should be sent later on
 - b: bandwidth
 - a: attribute
 	- rtpmap:`<dynamic-codec-id> <codec>` 
