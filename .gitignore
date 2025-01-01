@@ -1,4 +1,12 @@
-*.obsidian
+# ignore obsidian directory
+.obsidian/
+
+# ignore local-only files
+local-only/
+
+# ignore fast-note and todo inside main directory
 fast-note.md
-Pasted image *.png
 todo.md
+
+# ignore any pasted images inside main directory
+Pasted image *.png
