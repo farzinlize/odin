@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"4beeb06a23c26d00","type":"text","text":"## Local Name Address - LNA\nThis is a common module of each client to translate public names to local IP addresses. The LNA database can be shared with peers","x":-480,"y":-480,"width":420,"height":160}
+	],
+	"edges":[]
+}
