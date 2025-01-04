@@ -130,3 +130,5 @@
 
 - TSN: Transmission Sequence Numbers
 - TALI: Transport Adapter Layer Interface
+- NDC: National Destination Code
+- Um (inteface): GSM Air interface
