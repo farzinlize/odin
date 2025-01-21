@@ -1,3 +1,3 @@
 Ambitious student on a journey to discover, I'm motivated by technology and science. Never afraid of taking steps forward, I want to sparkle and shine. Touched by nature and art, I never stopped being real. Creativity is my tool to bend the universe around me to my will, I'm dedicated to details where beauty happens. Eager to be a part of something greater, I always appreciate a good company to work with.
 
-من فرزین محمدی هستم
+من فرزین محمدی هستم. من عاشق کامپیوتر و تکنولوژی هستم.
