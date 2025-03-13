@@ -39,7 +39,7 @@ the times at which demands for service (use of the channel) arrive are uncertain
 - $w_n \triangleq$ waiting time (in queue) for $C_n$
 - $s_n \triangleq w_n + x_n$  system time for $C_n$
 - $\widetilde t \triangleq \lim_{n \to \infty}{t_n}$ : $\bar t$ is average inter arrival time between customer
-- $\bar t \triangleq \frac{1}{\lambda}$ actually $\lambda$ is average arrival rate of customers
+- $\bar t \triangleq \frac{1}{\lambda}$ **note that $\lambda$ is average arrival rate of customers**
 - $\bar w_n \to \bar w = W$ : average waiting time
 - $\bar s_n \to \bar s = T$ : average system time
 ### Performance and Effectiveness Analysis
@@ -55,7 +55,7 @@ the times at which demands for service (use of the channel) arrive are uncertain
 - $\bar N = \lambda T$ : average number of customers in the system
 - $\bar N_q = \lambda W$ : average number of customers in the queue
 - $\bar N_s=\lambda \bar x$ : average number of customers in the service facility
-- $T=\bar x + W \Rightarrow$ $\bar N=\bar N_q + \bar N_s$
+- $T=\bar x + W \Leftrightarrow \bar N=\bar N_q + \bar N_s$
 
 ### Utilization Factor
 $\rho \triangleq (\text{average arrival rate of customres}) \times (\text{average service time}) = \lambda \bar x$
