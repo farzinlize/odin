@@ -10,3 +10,8 @@ executable files (scripts) starts with:
 -> the `||` is the opposite, it only execute the second command only if the first command fails.
 -> these operators can be used together to form an if-else situation. For example, the line below uses `[]` or `test` to evaluate the `condition` and then execute `true-command` if the condition succeeded, or it only execute `false-command` if the `condition` failed.
 	`[ condition ] && true-command || false-command`
+
+### Walrus in Bash
+you can set a default value for an environment variable like
+`${<variable_name>:=<default>}`
+this way, if `<variable_name>` was not defined, then it will be initialized as default value for the rest of the scripts

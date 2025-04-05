@@ -8,5 +8,8 @@
 # docker-container
 - ls : list containers (equal to `$ docker ps`)
 
-
-
+# docker-inspect
+- quick IP check:
+```
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name_or_id>
+```
