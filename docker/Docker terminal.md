@@ -13,3 +13,7 @@
 ```
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container_name_or_id>
 ```
+
+# docker-exec
+- execute command in container
+- root user command -> `docker exec -u 0`
