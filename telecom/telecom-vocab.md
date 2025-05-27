@@ -132,3 +132,7 @@
 - TALI: Transport Adapter Layer Interface
 - NDC: National Destination Code
 - Um (inteface): GSM Air interface
+
+- DEA: Diameter Edge Agent
+- DRA: Diameter Routing Agent
+- [[short-def#SPS Huawei Hardware|SPS]]: (Huawei) Signaling service Processing System

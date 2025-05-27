@@ -5,5 +5,3 @@ this software have texted help menus with lots of capabilities to manipulate and
 
 > I didn't bother installing any of those applications while their images are smaller than 100 `MB` (less than 17 `MB` for only the server ⭐) 
 
-1. s
-2. 

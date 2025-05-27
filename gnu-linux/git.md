@@ -16,3 +16,18 @@ if you specify `<filename>` as argument, it shows commits related to the file
 show branches from remote -> `git branch -r`
     `-a` option will show all branches including local
 
+## Tags
+to relocate a tag with the same info and details (annotated text alongside the tag itself) you can use `-f` flag like this:
+```sh
+git tag -fa <tag-name>
+```
+**be careful** that you might need to delete the tag from any remote before pushing any tags. you can delete a tag using this command:
+```sh
+git push origin :<tag-name>
+# or 
+git push origin --delete <tag-name>
+# afterward deleteing, push tags
+git push origin --tags 
+# or
+git push origin <tag-name>
+```

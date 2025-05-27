@@ -40,3 +40,5 @@ enabling the transfer of information between the Base Station Transceiver Subsys
 1. **Protocol Conversion**: NIF converts messages between different protocols, such as Mobile Application Part (MAP) and Diameter, ensuring compatibility and interoperability between legacy and new network elements.
 2. **Network Interconnection**: NIF enables the interconnection of different network nodes, including SS7, Diameter, and other signaling protocols, facilitating roaming and handovers between disparate networks.
 3. **Service Interworking**: NIF supports the interworking of various services, such as SMS, voice, and data, across different networks and protocols.
+### SPS: Huawei Hardware
+To minimize operating expense, carriers need a convergent signaling network that supports both SS7 and Diameter, and a signaling service processing system (SPS) that functions as both the STP and DRA/DEA. [ref](https://www.huawei.com/en/huaweitech/publication/73/hw_403723)
