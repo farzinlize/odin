@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read cmd <<< "$(zenity --entry --text='Enter command: [s, status], pull, push')"
+read cmd extra <<< "$(zenity --entry --text='Enter command: [s, status], pull, push')"
 
 case $cmd in
 	s | status)
@@ -11,7 +11,7 @@ case $cmd in
 		;;
 	push)
 		git add .
-		git commit -m "auto commit"
+		git commit -m "auto commit $extra"
 		git push origin main
 		;;
 	*)
