@@ -18,3 +18,6 @@ case $cmd in
 		echo "unknown command $cmd, only recognize pull, push or status and s"
 		;;
 esac
+
+echo 
+read -rsn1 -p "Press any key to exit"
