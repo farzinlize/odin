@@ -4,6 +4,7 @@ read cmd extra <<< "$(zenity --entry --text='Enter command: [s, status], pull, p
 
 case $cmd in
 	s | status)
+		git fetch
 		git status
 		;;
 	pull)
