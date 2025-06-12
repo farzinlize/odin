@@ -15,5 +15,8 @@ Categories=Application
 ## gnome vs i3
 in gnome, you can place those `.desktop` files in `~/Desktop` to make icons in gnome desktop. but in i3 you can place those files at `~/.local/share/applications` so `i3-dmenu-desktop` can see them
 
+# X server
+
+X is responsible of your GUI bro. 
 # `xprop` to the rescue!
-`xprop` will show you every information you may need about a window (gnome or i3) simply run the `xprop` and click on any window you wanna know about it.
+`xprop` will show you every information you may need about an x window (gnome or i3) simply run the `xprop` and click on any window you wanna know about it. 

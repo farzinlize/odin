@@ -8,11 +8,11 @@ I used it to specify a class that should be run floating mode:
 ``` config-i3
 for_window [class="my-floating-window"] floating enable
 ```
-whenever `--class="my-floating-window"` flag is set, the window will be in floating mode like:
+For example, when running `gnome-terminal` with `--class="my-floating-window"` flag, the window will be in floating mode:
 ``` shell
 gnome-terminal --class="my-floating-window"
 ```
-
+you can find more about *x class* in
 # Keyboard 
 
 for layout you can execute this command:
