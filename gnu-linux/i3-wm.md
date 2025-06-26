@@ -25,3 +25,6 @@ how can you know what is the name of key, recognized by i3 so you can bind some 
 ``` bash
 xbindkeys --keys
 ```
+
+# Touch Pad
+I asked [ChatGPT](https://chatgpt.com/share/685d006c-6f1c-800b-8ab6-0408e28031f6) about my issue with the touch pad on my laptop and the only thing i had to do was    
