@@ -1,6 +1,19 @@
 # config file
 > located at: `~/.config/i3/config`
 
+## i3 message
+funny enough to hear that, you can send messages to i3 in order to *execute* any kind of commands or *subscribe* for further events occurred across i3, using `i3-msg`
+
+#### Move Desktops between Monitors
+in order to move a desktop (i.e. workspace) to another monitor (i.e. outputs), `i3-msg move` can be used this way:
+```
+i3-msg move workspace to output <direction>
+```
+keep in mind that your monitor placement can impact your decision for a **direction**. The bellow key-binding can toggle monitor change, in case of only using two monitor alongside together: 
+```
+bindsym $mod+Next exec i3-msg move workspace to output left
+```
+you can put right or left and it dose not really matter because you only have two monitors. 
 ## `for_window`
 *for any window that some condition is met do something*
 
