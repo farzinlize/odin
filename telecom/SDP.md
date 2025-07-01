@@ -1,5 +1,5 @@
 ## SDP structure
-these short names are used for specifying parameterns and etc.
+these short names are used for specifying parameters and etc.
 - o: owner
 - s: session name
 - c: content 
