@@ -14,6 +14,22 @@ keep in mind that your monitor placement can impact your decision for a **direct
 bindsym $mod+Next exec i3-msg move workspace to output left
 ```
 you can put right or left and it dose not really matter because you only have two monitors. 
+#### Workstation names
+There is some default names for different workstations in the i3 config file which they all have a key binding to them (numbers). **Keep in mind** that the name of those workstation must start with a single digit for the binding keys to work. to change a workstation name you can use `i3-input` 
+``` bash
+i3-input -F 'rename workspace to "%s"' -P 'New workspace name: '
+```
+I also bind this command with `$mod+Shift+grave` keys (grave is the key that writes ~ but when shift is pressed). Plus that, when pressing `$mod+grave` this `rofi` enabled command will list all my workstations by name and I can choose between them to move using this command:
+``` bash
+i3-msg workspace $(i3-msg -t get_workspaces | jq -r '.[].name' | rofi -dmenu -p "Go to workspace")
+```
+## `rofi` program
+This program is amazing and can be your `alt+Tab` solution to focus on a app, open ssh or even open any apps! these are list of commands that runs those solutions:
+```bash
+rofi -show-icons -show ssh    # shows every ssh profile to connect
+rofi -show-icons -show drun   # shows applications to start
+rofi -show-icons -show window # shows open windows to focus
+```
 ## `for_window`
 *for any window that some condition is met do something*
 
@@ -26,7 +42,7 @@ For example, when running `gnome-terminal` with `--class="my-floating-window"` f
 gnome-terminal --class="my-floating-window"
 ```
 you can find more about *x class* in
-# Keyboard 
+## Keyboard 
 
 for layout you can execute this command:
 ``` shell
@@ -38,6 +54,7 @@ how can you know what is the name of key, recognized by i3 so you can bind some 
 ``` bash
 xbindkeys --keys
 ```
-
-# Touch Pad
+## Lock Screen
+you can use `i3lock` to lock the screen. you may consider using `xset dpms force off` to turn off the screen after locking it.
+## Touch Pad
 I asked [ChatGPT](https://chatgpt.com/share/685d006c-6f1c-800b-8ab6-0408e28031f6) about my issue with the touch pad on my laptop and the only thing i had to do was    
