@@ -31,3 +31,8 @@ git push origin --tags
 # or
 git push origin <tag-name>
 ```
+## Git Comment char
+change `#` char for comments to use it for header like markdown?
+```
+git config core.commentchar ";"
+```

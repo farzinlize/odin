@@ -1,3 +1,5 @@
+> AI generated guide
+
 `sed` (short for Stream Editor) is a powerful command-line utility in Linux used for parsing and transforming text. It is particularly useful for tasks involving text substitution, deletion, and insertion in files or input streams. Below, I'll explain the basic syntax, common options, and various use cases for `sed`.
 
 ### Basic Syntax
