@@ -22,3 +22,4 @@ esac
 
 echo 
 read -rsn1 -p "Press any key to exit"
+echo

@@ -1,3 +1,5 @@
+- MNO: Mobile Network **Operator**
+- MVNO: Mobile Virtual Network Operator
 - EPC: Evolved Packet Core
 - EPS: Evolved Packet System
 - IMS: IP Multimedia Subsystem
