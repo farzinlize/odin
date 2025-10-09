@@ -138,3 +138,4 @@
 - DEA: Diameter Edge Agent
 - DRA: Diameter Routing Agent
 - [[short-def#SPS Huawei Hardware|SPS]]: (Huawei) Signaling service Processing System
+- MS: Mobile Subscriber?
