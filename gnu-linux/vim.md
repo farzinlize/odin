@@ -1,5 +1,16 @@
-Cheat sheet at https://vim.rtorr.com/
+# wrapping lines
+in default mode, when you open a file in vim, **overlong lines** splits to multiple lines in your display. this is called **wrapping** and can be set on and off with these commands:
+- `:set wrap` turn on wrapping to show all of the line 
+- `:set nowrap` turn it off and you must scroll horizontally to see the rest of the line
 
+# Useful commands
+here is a list of useful commands to note:
+- `:set colorcolumn=<number>` draw a vertical line on that column number
+	- `:set colorcolumn=` to remove all vertical lines drawn 
+
+
+# Cheat Sheet
+Cheat sheet at https://vim.rtorr.com/
 ## Global
 
 -   `:h[elp] keyword` - open help for keyword
