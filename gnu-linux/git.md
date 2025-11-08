@@ -31,6 +31,8 @@ git push origin --tags
 # or
 git push origin <tag-name>
 ```
+## Git config global and local
+when you enter `git config ...` inside a repository, it applies your config only on the local repository setting. you can add `--global` flag to make it a global setting for every repository on the machine.
 ## Git Comment char
 change `#` char for comments to use it for header like markdown?
 ```
@@ -58,4 +60,18 @@ git branch -D temp-<date> # force delete the branch
 git push <remote> --delete temp-<date> # deletes the branch in remote
 ```
 > you must use `-D` flag to force a delete because you want to ignore the commits from your temporary branch 
+
+## GPG signing
+you can sign commits and tags with a private gpg key and let others to verify that you authored those commits or tags, using Gnu Privacy Guard tool. here is a list of different descriptions on how to sign your commits or tags:
+
+- `-S` flag with `git-commit` and it also requires the key-id with `--gpg-sign=<KEY-ID>` or it will use the committer identity to find out proper key. 
+- `-s` flag with `git-tag` and just like the last one it requires the key id with `-u <key-id>` flag and argument, or otherwise it uses the default key configured in git
+- using automatic signing with `git config`
+
+with `git config` you can configure a default gpg key for signing your commits or tags, globally for every repository on your system or just for one repository. 
+
+**git configuration keys used for automatically signing tags or commits:**
+- `user.signingkey <key-id>`
+- `commit.gpgSign true/false` (control automatic signing **commits**, true for activation)
+- `tag.gpgSign true` (like commits but specially for **tags**)
 
