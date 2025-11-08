@@ -7,6 +7,9 @@
 
 # docker-container
 - ls : list containers (equal to `$ docker ps`)
+## useful flags
+- `--filter "name=prefix`  this filter containers with names starting with `prefix`
+- `--format "{{.Name}}"` this only prints names without table header and anything else
 
 # docker-inspect
 - quick IP check:
