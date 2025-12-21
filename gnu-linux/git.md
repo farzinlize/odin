@@ -75,3 +75,5 @@ with `git config` you can configure a default gpg key for signing your commits o
 - `commit.gpgSign true/false` (control automatic signing **commits**, true for activation)
 - `tag.gpgSign true` (like commits but specially for **tags**)
 
+> deepseek conversation about gpg signing: https://chat.deepseek.com/share/nq9mwgytr15atrqgmv
+

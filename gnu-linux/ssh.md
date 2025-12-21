@@ -24,3 +24,7 @@ Command: `ssh-keygen -t ed25519 -C "any@mail.com"`
 	(e.g. `/home/you/.ssh/my.access`) 
 - you can also lock this key with a passphrase but entering nothing is also possible
 - `-t` option tells the key type (e.g. ed25519 or rsa) and `-C` option to assign your email to this key
+
+## Monitor ssh logins
+once I asked deep-seek about alerting ssh logins that results in this useful conversation:
+https://chat.deepseek.com/share/dntjkq27mnimikvfpw

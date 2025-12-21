@@ -7,7 +7,7 @@ A central entity that controls one or more Node Bs, providing control functional
 ### UMTS
 is a third-generation (3G) mobile cellular system that allows 2G GSM networks to migrate to 3G
 ### MSC
-is responsible for *voice beares*
+is responsible for *voice bearers*
 ### SGSN
 is responsible for *data session bearer*
 ### SP (Signaling points)
