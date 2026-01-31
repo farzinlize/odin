@@ -77,3 +77,9 @@ with `git config` you can configure a default gpg key for signing your commits o
 
 > deepseek conversation about gpg signing: https://chat.deepseek.com/share/nq9mwgytr15atrqgmv
 
+## Git Stash
+stash is **local-only** and there is just a few useful commands to remember:
+- `git stash` is equivalent with `git stash push` which make a new stash entry with automated stash comment.
+- `git stash pop` is the opposite and it will apply the last pushed stash entry on top of working directory. **WARNING** keep in mind that pop may result in conflicts which is bad.
+- `git stash list` will show all stashed entries
+- `git stash -u` the `-u` flag for pushing is also usable to include untracked files in your stash.
