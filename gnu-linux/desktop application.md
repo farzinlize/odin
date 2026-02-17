@@ -20,3 +20,8 @@ in gnome, you can place those `.desktop` files in `~/Desktop` to make icons in g
 X is responsible of your GUI bro. 
 # `xprop` to the rescue!
 `xprop` will show you every information you may need about an x window (gnome or i3) simply run the `xprop` and click on any window you wanna know about it. 
+
+for keys, run below app and press the key to know about it:
+``` bash
+xbindkeys --keys
+```
